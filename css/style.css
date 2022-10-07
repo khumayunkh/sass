@@ -115,3 +115,28 @@ body {
     animation-duration: 1.5s;
     animation-timing-function: ease;
     backface-visibility: hidden; }
+
+.photo {
+  width: 50rem;
+  position: relative; }
+  .photo_in {
+    width: 30rem;
+    z-index: 1;
+    position: absolute;
+    outline-offset: 1rem;
+    transition: all 1s; }
+    .photo_in_1 {
+      top: 0;
+      left: 0rem; }
+    .photo_in_2 {
+      top: 2rem;
+      left: 20rem; }
+    .photo_in_3 {
+      top: 13rem;
+      left: 10rem; }
+    .photo_in:hover {
+      outline: 1rem solid black;
+      transform: scale(1.1);
+      z-index: 2; }
+  .photo:hover .photo_in:not(:hover) {
+    transform: scale(0.9); }
