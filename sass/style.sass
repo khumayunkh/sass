@@ -1,3 +1,5 @@
+@import './animation/animation.sass'
+    
 *, ::after, ::before
     margin: 0
     padding: 0
@@ -91,24 +93,3 @@ body
         z-index: -1
         transition: all .5s    
 
-@keyframes ToDown
-    0%
-        opacity: 0
-        transform: translateY(-100rem)   
-    100%
-        opacity: 1
-        transform: translateY(0px)      
-@keyframes ToRight
-    0%
-        opacity: 0
-        transform: translateX(100rem)
-    100%
-        opacity: 1
-        transform: translateX(0px)      
-@keyframes ToUp
-    0%
-        opacity: 0
-        transform: translateY(100rem)
-    100%
-        opacity: 1
-        transform: translateY(0px)   
