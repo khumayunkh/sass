@@ -140,3 +140,14 @@ body {
       z-index: 2; }
   .photo:hover .photo_in:not(:hover) {
     transform: scale(0.9); }
+
+.hello {
+  text-align: center;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .hello_title {
+    font-size: 10rem; }
+    .hello_title:hover {
+      transform: skewY(10deg) skewX(15deg); }
